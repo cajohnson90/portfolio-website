@@ -25,7 +25,7 @@ export default function Skills() {
 
   return (
     <motion.section
-      className="mb-28 max-w-[53rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28 max-w-[53rem] text-center sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
@@ -37,7 +37,7 @@ export default function Skills() {
         {skillsData.map((skill, index) => (
           <motion.li
             key={index}
-            className="bg-white borderBlack px-3 py-3 rounded-xl"
+            className="bg-white borderBlack px-3 py-3 rounded-xl dark:bg-white/10 dark:text-white/80"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
