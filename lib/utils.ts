@@ -2,7 +2,7 @@ export const validateString = (value: unknown, maxLength: number) => {
     return (value || typeof value == "string" || maxLength > (value as string).length) 
 }
 
-export const getErrorMessage = (error:unknown) => {
+export const getErrorMessage = (error:unknown): string => {
     let message: string;
     if (error instanceof Error) {
         message = error.message;
