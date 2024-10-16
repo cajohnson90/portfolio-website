@@ -1,27 +1,17 @@
 "use client";
 
 import Image from "next/image";
-import React, { useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import portraitImg from "@/public/portrait.png";
 import Link from "next/link";
-import { BsArrowRight, BsDownload, BsLinkedin } from "react-icons/bs";
+import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
-import { useInView } from "react-intersection-observer";
-import { useActiveSectionContext } from "@/context/active-section-context";
+import useSectionInView from "@/lib/hooks";
 
 export default function Intro() {
-  const { ref, inView } = useInView({
-    threshold: 0.5,
-  });
-  const { setActiveSection } = useActiveSectionContext();
-
-  useEffect(() => {
-    if (inView) {
-      setActiveSection("Home");
-    }
-  }, [inView, setActiveSection]);
+  const { ref } = useSectionInView("Home", 0.5);
 
   return (
     <section
@@ -68,11 +58,9 @@ export default function Intro() {
       >
         <span className="font-bold">Hi, I'm Cameron. </span>I'm a{" "}
         <span className="font-bold">full-stack developer </span> with{" "}
-        <span className="font-bold">six years </span>
-        of programming experience. I enjoy back-end and front-end web
-        development, as well as writing CI/CD pipelines and performing automated
-        testing. Join me on this journey, and let’s turn ideas into software
-        solutions together! ✨
+        <span className="font-bold">10 years </span>
+        of programming experience. Join me on this journey, and let’s turn ideas
+        into software solutions together! ✨
       </motion.p>
 
       <motion.div

@@ -1,13 +1,13 @@
 import React from "react";
 
 type SectionHeadingProps = {
-  childern: React.ReactNode;
+  children: React.ReactNode;
 };
 
-export default function SectionHeading({ childern }: SectionHeadingProps) {
+export default function SectionHeading({ children }: SectionHeadingProps) {
   return (
     <section className="text-3xl font-medium capitalize mb-8">
-      {childern}
+      {children}
     </section>
   );
 }
