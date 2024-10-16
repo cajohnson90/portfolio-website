@@ -2,7 +2,7 @@
 
 import React from "react";
 import SectionHeading from "./section-heading";
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import useSectionInView from "@/lib/hooks";
 import { skillsData } from "@/lib/data";
 

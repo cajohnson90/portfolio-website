@@ -15,5 +15,5 @@ export default function useSectionInView(sectionName: SectionName, threshold = 0
         }
       }, [inView, setActiveSection]);
 
-    return {ref}
+    return {ref, inView}
 }
