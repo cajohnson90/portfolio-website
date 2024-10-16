@@ -17,7 +17,7 @@ export default function Projects() {
       id="projects"
     >
       <SectionHeading>Projects</SectionHeading>
-      <h3 className="text-3xl font-medium mb-8">Work In Progress</h3>
+      <h3 className="text-3xl font-medium mb-8">Coming Soon!</h3>
     </motion.section>
   );
 }
