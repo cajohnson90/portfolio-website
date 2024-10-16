@@ -1,7 +1,9 @@
 "use server"
-
+import React from "react";
 import { Resend } from "resend";
 import { validateString, getErrorMessage } from "@/lib/utils";
+import ContactFormEmail from "@/email/contact-form-email"
+
 
 const resend = new Resend(process.env.RESEND_API_KEY)
 
@@ -26,7 +28,8 @@ export const sendEmail = async (formData: FormData) => {
             to: "xxcameronjohnson@outlook.com",
             subject: "Message from Portfolio page",
             replyTo: senderEmail as string,
-            text: message as string
+            text: message as string,
+            react: React.createElement(ContactFormEmail, {senderEmail: senderEmail as string, message: message as string})
     
         })
     } catch (error: unknown) {

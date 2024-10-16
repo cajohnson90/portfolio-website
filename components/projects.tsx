@@ -16,7 +16,7 @@ export default function Projects() {
       transition={{ delay: 0.175 }}
       id="projects"
     >
-      <SectionHeading children="Projects" />
+      <SectionHeading>Projects</SectionHeading>
       <h3 className="text-3xl font-medium mb-8">Work In Progress</h3>
     </motion.section>
   );

@@ -20,7 +20,7 @@ export default function Contact() {
       id="contact"
       ref={ref}
     >
-      <SectionHeading children="Contact" />
+      <SectionHeading>Contact</SectionHeading>
       <p className="text-gray-500 -mt-5">
         Please contact me directly at{" "}
         <a className="underline" href="mailto:xxcameronjohnson@outlook.com">

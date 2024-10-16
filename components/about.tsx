@@ -17,7 +17,7 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading children="About Me" />
+      <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
         Hello there, 👋 I'm a passionate full-stack developer on an exciting
         journey to explore and master new software technologies. After
