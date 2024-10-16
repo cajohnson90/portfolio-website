@@ -18,7 +18,6 @@ export default function About() {
       id="about"
     >
       <SectionHeading children="About Me" />
-      <h3 className="text-3xl font-medium mb-8">A brief introduction</h3>
       <p className="mb-3">
         Hello there, 👋 I'm a passionate full-stack developer on an exciting
         journey to explore and master new software technologies. After

@@ -35,28 +35,48 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated College",
+    location: "Corvallis, OR",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "After finishing college, I secured a position as an Information Specialist at the Corvallis Clinic.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2013",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Engineer",
+    location: "Corvallis, OR",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a Software Engineer at Polycom for nearly two years, where I developed Java web applications that marked the beginning of my professional engineering career.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    tags: ["Java", "React", "Android", "Scrum"],
+    date: "2013 - 2015",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Localization Engineer",
+    location: "Corvallis, OR",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I stepped into engineering role at Transperfect that involved creating scripts to automate manual tasks to handle processing data files from our clients and deliver them with translations",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    tags: ["HTML", "CSS", "Javascript", "Regular Expressions", "AWS", "Project Management", "TMS"],
+    date: "2015 - 2019",
+  },
+  {
+    title: "Software Localization Engineer",
+    location: "Seattle, WA",
+    description:
+      "As an experienced engineering in the localization space, I moved to Seattle to begin working at Facebook, to write data pipelines and provide analtics about our localization migration.",
+    icon: React.createElement(FaReact),
+    tags: ["MySQL", "Python", "Hive", "Presto"],
+    date: "2020 - 2021",
+  },
+  {
+    title: "Full-Stack Engineer",
+    location: "Seattle, WA",
+    description:
+      "I'm now a full-stack developer working using my experience to create web applications, data pipelines, plugins and lead technical discussions about implementations.",
+    icon: React.createElement(FaReact),
+    tags: ["PHP", "Python", "Typescript", "React", "Google Cloud Platform", "Docker", "Kubernetes"],
+    date: "2021 - 2024",
   },
 ] as const;
 
@@ -87,6 +107,7 @@ export const projectsData = [
 export const skillsData = [
   "Python",
   "PHP",
+  "MySQL",
   "Java",
   "HTML",
   "CSS",
