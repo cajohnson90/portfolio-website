@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import useSectionInView from "@/lib/hooks";
 
 export default function Contact() {
-  const { ref } = useSectionInView("Skills");
+  const { ref } = useSectionInView("Contact");
 
   return (
     <motion.section
@@ -14,6 +14,7 @@ export default function Contact() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
       id="contact"
+      ref={ref}
     >
       <SectionHeading children="Contact" />
       <h3 className="text-3xl font-medium mb-8">Work In Progress</h3>
