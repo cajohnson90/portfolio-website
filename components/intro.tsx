@@ -61,8 +61,9 @@ export default function Intro() {
         <span className="font-bold">Hi, I'm Cameron. </span>I'm a{" "}
         <span className="font-bold">full-stack developer </span> with{" "}
         <span className="font-bold">10 years </span>
-        of programming experience. Join me on this journey, and let’s turn ideas
-        into software solutions together! ✨
+        of experience. in crafting innovative software solutions. Let’s
+        collaborate and bring your ideas to life, transforming them into
+        powerful, scalable applications together! ✨
       </motion.p>
 
       <motion.div
