@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import texttoolImg from "@/public/texttool.png";
+import atmsImg from "@/public/atms.png";
+import webstoreImg from "@/public/webstore.png";
 
 export const links = [
   {
@@ -82,49 +82,53 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Text Tool",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A web application designed for our game and localization engineers team across multiple mobile gaming studios to efficiently localize in-game content.",
+    tags: ["Laravel", "Node.js", "Typescript", "Tailwind", "MySQL", "Playwright", "Pest", "Docker", "GCP"],
+    imageUrl: texttoolImg,
   },
   {
-    title: "rmtDev",
+    title: "ATMS",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "An internal ticket management application to automate the extraction of content from AWS and assign translation requests to vendors.",
+    tags: ["Javascript", "HTML", "CSS", "Node.js", "AWS"],
+    imageUrl: atmsImg,
+  },
+  {
+    title: "Web Portal",
+    description:
+      "A web store application that enables mobile game users to purchase in-game items and read content blogs. Developed custom APIs for real-time product updates and a seamless checkout experience.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: webstoreImg,
   },
 ] as const;
 
 export const skillsData = [
   "Python",
   "PHP",
-  "MySQL",
   "Java",
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
+  "MySQL",
+  "HTML",
+  "CSS",
   "React",
   "Next.js",
   "Node.js",
   "Laravel",
+  "Docker",
+  "Kubernetes",
   "Git",
-  "Tailwind",
-  "Redis",
-  "Automation Testing",
-  "Google Cloud Platform",
-  "API Integration",
   "Playwright",
   "Pest",
+  "Redis",
+  "Tailwind",
+  "Bootstrap",
+  "Automation Testing",
+  "API Integration",
+  "Full Stack Development",
+  "Google Cloud Platform",
   "Restful API",
   "Framer Motion",
 ] as const;

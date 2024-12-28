@@ -29,7 +29,7 @@ export default function Experience() {
             <VerticalTimelineElement
               contentStyle={{
                 background:
-                  theme === "light" ? "#f3f4f6" : "rgba(255, 255, 255, 0.5",
+                  theme === "light" ? "#f3f4f6" : "rgba(255, 255, 255, 0.05)",
                 boxShadow: "none",
                 border: "1px solid rgba(0, 0, 0, 0.5)",
                 textAlign: "left",
@@ -45,7 +45,7 @@ export default function Experience() {
               dateClassName="mx-3"
               icon={item.icon}
               iconStyle={{
-                background: theme === "light" ? "white" : "black",
+                background: theme === "light" ? "white" : "rgb(27, 36, 50)",
                 fontSize: "1.5rem",
               }}
               visible={true}
